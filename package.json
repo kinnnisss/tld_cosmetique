@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "chmod +x node_modules/.bin/craco && craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
